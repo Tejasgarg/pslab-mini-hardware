@@ -26426,7 +26426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2412051755_Worldsemi-WS2812B-V5_C2846931.pdf"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2504101957_Worldsemi-WS2812B-B-W_C114586.pdf"
 			(at 240.665 196.85 0)
 			(effects
 				(font
@@ -26445,7 +26445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr Number" "WS2812B-V5"
+		(property "Mfr Number" "WS2812B-B/W"
 			(at 231.14 194.31 90)
 			(effects
 				(font
@@ -26454,7 +26454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number (LCSC)" "C2846931"
+		(property "Part Number (LCSC)" "C114586"
 			(at 231.14 194.31 90)
 			(effects
 				(font
@@ -30798,7 +30798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(property "Footprint" "pslab-mini:MountingHole_2.75mm_Pad"
 			(at 303.53 199.39 0)
 			(effects
 				(font
@@ -31815,7 +31815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(property "Footprint" "pslab-mini:MountingHole_2.75mm_Pad"
 			(at 316.23 223.52 0)
 			(effects
 				(font
@@ -32780,7 +32780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(property "Footprint" "pslab-mini:MountingHole_2.75mm_Pad"
 			(at 303.53 223.52 0)
 			(effects
 				(font
@@ -37053,7 +37053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+		(property "Footprint" "pslab-mini:MountingHole_2.75mm_Pad"
 			(at 316.23 199.39 0)
 			(effects
 				(font
