@@ -14437,13 +14437,13 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "50f8d78b-555c-4984-bdeb-f88a31133ad5")
-		(at 97.5 105.975 90)
+		(at 87.5 105.975 90)
 		(descr "Through hole straight socket strip, 1x16, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x16 2.54mm single row")
 		(property "Reference" "J6"
 			(at 0 -2.77 90)
 			(layer "F.SilkS")
-			(uuid "a7b0bbba-d0d0-4fc2-805e-faeae3d2b0eb")
+			(uuid "78975892-ae54-4884-99f4-877a4475fbd0")
 			(effects
 				(font
 					(size 1 1)
@@ -14454,7 +14454,7 @@
 		(property "Value" "Conn_01x16_Socket"
 			(at 0.65 38.02 90)
 			(layer "F.Fab")
-			(uuid "9039fe13-3421-450c-8046-0f4c9ed6a688")
+			(uuid "62454eee-5b5a-48d4-b305-df43e6ae2b14")
 			(effects
 				(font
 					(size 1 1)
@@ -14466,7 +14466,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad191c32-149a-4a23-b309-09a7af7c87bb")
+			(uuid "d479e205-7f28-4467-85a8-452827f3e689")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14478,7 +14478,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "969fa1cb-7774-48ef-a549-8fd42d66f72b")
+			(uuid "df3c15da-e714-49e8-8f7a-efce48f287a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20554,7 +20554,7 @@
 	(footprint "pslab-mini:2.0mm_connector_edge"
 		(layer "F.Cu")
 		(uuid "83e0b292-317d-4a85-8c3f-20f8de52bf23")
-		(at 90.75 99.6 180)
+		(at 132.55 102 180)
 		(property "Reference" "J2"
 			(at -5.1 0.8 0)
 			(layer "F.SilkS")
