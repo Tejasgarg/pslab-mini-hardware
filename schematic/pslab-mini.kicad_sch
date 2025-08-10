@@ -13440,6 +13440,10 @@
 		(uuid "70e28b53-ac4f-498a-8565-66ddc2e05d60")
 	)
 	(no_connect
+		(at 544.83 177.8)
+		(uuid "7173433d-81b9-4e48-a0a8-a51057107301")
+	)
+	(no_connect
 		(at 504.19 66.04)
 		(uuid "755a91a4-82fa-4bf7-aed5-dc0c33cadcf0")
 	)
@@ -13486,10 +13490,6 @@
 	(no_connect
 		(at 231.14 201.93)
 		(uuid "a93d76d4-54a9-4f46-8911-cedb1e567d01")
-	)
-	(no_connect
-		(at 544.83 177.8)
-		(uuid "ad5cdd2c-3fd0-4e51-a92e-814c3dd6744f")
 	)
 	(no_connect
 		(at 248.92 88.9)
@@ -13768,16 +13768,6 @@
 			(type default)
 		)
 		(uuid "10db936f-be01-4b1c-a886-03fe9fedcef0")
-	)
-	(wire
-		(pts
-			(xy 553.72 175.26) (xy 544.83 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11411ee0-b097-4ddc-9d3c-e5b84350963d")
 	)
 	(wire
 		(pts
@@ -14157,7 +14147,27 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1ffabab5-18d5-454e-a006-dc2ee2870afa")
+		(uuid "1ff6cf7c-94d1-4434-a6b8-74849b913ffd")
+	)
+	(wire
+		(pts
+			(xy 557.53 175.26) (xy 544.83 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2227a0cc-f13c-40e7-8a11-82b83fe34813")
+	)
+	(wire
+		(pts
+			(xy 557.53 175.26) (xy 544.83 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2227a0cc-f13c-40e7-8a11-82b83fe34813")
 	)
 	(wire
 		(pts
@@ -14737,7 +14747,27 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "429b34bc-9137-4cd4-8e8b-e426f04cd8e9")
+		(uuid "428fcb40-63a6-45d3-b9c0-0d3a14a7f934")
+	)
+	(wire
+		(pts
+			(xy 557.53 172.72) (xy 544.83 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4292385b-7507-4430-bb02-5452f81934da")
+	)
+	(wire
+		(pts
+			(xy 557.53 172.72) (xy 544.83 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4292385b-7507-4430-bb02-5452f81934da")
 	)
 	(wire
 		(pts
@@ -17411,13 +17441,13 @@
 	)
 	(wire
 		(pts
-			(xy 553.72 172.72) (xy 544.83 172.72)
+			(xy 429.26 184.15) (xy 429.26 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba58f9ff-dd71-4ecd-ba7b-7ff526c075e9")
+		(uuid "ba0bcc83-c334-49eb-9077-60bbeca0d8e3")
 	)
 	(wire
 		(pts
@@ -19053,6 +19083,36 @@
 		)
 		(uuid "137cebdc-d039-4aef-bb50-0652a54c89a1")
 	)
+	(label "CAP"
+		(at 453.39 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "160259be-408f-49c3-b60b-2afad64562b8")
+	)
+	(label "KEY"
+		(at 41.91 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16acb546-510c-4b23-84a6-a15cfcc28304")
+	)
+	(label "SWCLK"
+		(at 557.53 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "196558d9-6ce4-4709-80ea-d5f66ea0b4cd")
+	)
 	(label "CH1"
 		(at 226.06 240.03 0)
 		(effects
@@ -19523,16 +19583,6 @@
 		)
 		(uuid "72844a52-00a3-42b1-ad46-c7f1e083a53f")
 	)
-	(label "SWCLK"
-		(at 553.72 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "72fc3756-953a-4946-a77d-5251fdc95740")
-	)
 	(label "VINPUT"
 		(at 109.22 45.72 90)
 		(effects
@@ -19722,16 +19772,6 @@
 			(justify right bottom)
 		)
 		(uuid "91498f09-9469-4841-b771-96f7ff028a57")
-	)
-	(label "SWDIO"
-		(at 553.72 172.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9176a9d8-769a-4a66-962d-3f9e91d38521")
 	)
 	(label "SPID"
 		(at 567.69 67.31 180)
@@ -20052,6 +20092,26 @@
 			(justify left bottom)
 		)
 		(uuid "cf6443cb-3d25-49c0-b5ce-f99041f7a081")
+	)
+	(label "FQY"
+		(at 453.39 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d02c2b84-8c29-4ff7-921d-e70e7c86114b")
+	)
+	(label "SWDIO"
+		(at 557.53 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d48bbe4a-9472-4618-a238-d34b3384ac4b")
 	)
 	(label "LD1"
 		(at 238.76 222.25 0)
@@ -33659,7 +33719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_233-503_2x03_P2.54mm"
+		(property "Footprint" "pslab-mini:pslab-mini_2x03_P2.54mm"
 			(at 537.21 175.26 0)
 			(effects
 				(font
