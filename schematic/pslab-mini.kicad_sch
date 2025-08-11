@@ -19637,16 +19637,6 @@
 		)
 		(uuid "09776e6f-a941-4559-be33-60d2efdf1347")
 	)
-	(label "LA1"
-		(at 453.39 189.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0c5feca3-1513-43da-aa70-3a71eb63c296")
-	)
 	(label "SPI3_SCK"
 		(at 486.41 171.45 0)
 		(effects
@@ -19686,6 +19676,16 @@
 			(justify left bottom)
 		)
 		(uuid "127b58e6-9297-49af-9467-40c38b2521b7")
+	)
+	(label "CH2"
+		(at 453.39 194.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "13dbd958-94a6-4f3a-89fe-5ab88012cbbe")
 	)
 	(label "KEY"
 		(at 41.91 140.97 0)
@@ -19907,16 +19907,6 @@
 		)
 		(uuid "349c80db-c761-4a08-9b3c-a59be8177c9e")
 	)
-	(label "CH1"
-		(at 453.39 194.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3f0605f2-98cb-4b10-b9e4-8bfb53cf61b9")
-	)
 	(label "HSE_OUT"
 		(at 185.42 63.5 0)
 		(effects
@@ -19966,6 +19956,16 @@
 			(justify right bottom)
 		)
 		(uuid "4a4a6aa8-ec9b-4735-bd46-91a98ab93f71")
+	)
+	(label "CH1"
+		(at 453.39 191.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c027202-8bb2-4174-9201-907c0e7b568d")
 	)
 	(label "UART1_RX"
 		(at 439.42 71.12 0)
@@ -20197,6 +20197,16 @@
 		)
 		(uuid "6debc007-b75d-4587-a67a-8144a195dcfd")
 	)
+	(label "LA1"
+		(at 281.94 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6e4167dd-4f21-43be-b454-f015263a93fd")
+	)
 	(label "VUSBIN"
 		(at 109.22 22.86 270)
 		(effects
@@ -20377,6 +20387,16 @@
 		)
 		(uuid "8728fe9f-746e-4e5f-bde5-3c76b300cee3")
 	)
+	(label "LA2"
+		(at 453.39 189.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a1eb708-75ad-4d53-8ea0-349d16fae2d6")
+	)
 	(label "CS2"
 		(at 269.24 58.42 180)
 		(effects
@@ -20406,16 +20426,6 @@
 			(justify right bottom)
 		)
 		(uuid "8b572678-4011-44da-92b5-da606833cc70")
-	)
-	(label "CH2"
-		(at 453.39 191.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8ea3fb95-e11c-4462-a441-6a19b0541912")
 	)
 	(label "OSC_REF1"
 		(at 318.77 81.28 0)
@@ -20527,16 +20537,6 @@
 		)
 		(uuid "af44076d-4e9e-4157-aa71-f9f699d5c50b")
 	)
-	(label "LA1"
-		(at 281.94 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b0771898-f892-4562-8b28-7889e68b5457")
-	)
 	(label "FQY"
 		(at 284.48 66.04 180)
 		(effects
@@ -20546,16 +20546,6 @@
 			(justify right bottom)
 		)
 		(uuid "b230598a-3b3e-40e0-a31a-0c56dee9efed")
-	)
-	(label "LA2"
-		(at 281.94 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b34f6799-53bb-41ac-b10c-0a4963c9ad6a")
 	)
 	(label "CS1"
 		(at 269.24 55.88 180)
@@ -20747,6 +20737,16 @@
 		)
 		(uuid "d66334b7-eb5b-4c58-ad3d-30342396a758")
 	)
+	(label "LA1"
+		(at 453.39 186.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dab500c2-2e8a-4766-b10e-445f43761696")
+	)
 	(label "LD1"
 		(at 238.76 222.25 0)
 		(effects
@@ -20907,16 +20907,6 @@
 		)
 		(uuid "f8a1e15b-4831-4b93-91be-a206d44cc82e")
 	)
-	(label "LA2"
-		(at 453.39 186.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fba85279-d965-44e5-b61c-0088beb7b941")
-	)
 	(label "UART6_RX"
 		(at 487.68 161.29 0)
 		(effects
@@ -20926,6 +20916,16 @@
 			(justify left bottom)
 		)
 		(uuid "fc5728e0-fced-486d-96ad-1678cd0e8d36")
+	)
+	(label "LA2"
+		(at 281.94 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe13fb57-51d1-4135-ad03-59a98be394ee")
 	)
 	(label "CAP"
 		(at 189.23 81.28 0)
