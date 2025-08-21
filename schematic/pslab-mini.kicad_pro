@@ -60,19 +60,7 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|157295000|101950000|a4184bd3-c010-4b42-a040-7722f17f1890|0ae81d84-a19d-49a2-84f9-47b32209d817",
-          ""
-        ],
-        [
-          "hole_clearance|157295000|101950000|a4184bd3-c010-4b42-a040-7722f17f1890|693d17b9-9910-4786-a92f-1d54fc437132",
-          ""
-        ],
-        [
-          "hole_clearance|157295000|96150000|fe302f05-993c-48a0-94cc-1d1acdb54052|776fdb34-c188-4cab-903f-7fa937fea96b",
-          ""
-        ],
-        [
-          "hole_clearance|157295000|96150000|fe302f05-993c-48a0-94cc-1d1acdb54052|fb39eda5-7ccb-44be-96d6-3f29f0549028",
+          "silk_overlap|87203456|79180315|2ee04e9e-ab27-4d0c-bb9e-780d44bc29bf|42763413-039f-4c17-844e-74f37caff819",
           ""
         ]
       ],
@@ -204,7 +192,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.4,
+        0.8
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -236,6 +227,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.6
         }
       ],
       "zones_allow_external_fillets": false
@@ -256,16 +251,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "multiple_net_names|-330200|1409700|a0f67732-6165-4c3c-b347-15a104cbc2bd|af31ba7e-a404-4fb9-bfd5-5cd73e04e2f3|/93806d35-978a-41c3-895f-33e46b0d2e7c|/93806d35-978a-41c3-895f-33e46b0d2e7c|/93806d35-978a-41c3-895f-33e46b0d2e7c",
-        ""
-      ],
-      [
-        "multiple_net_names|863600|1371600|5efb54e6-a672-4cee-8ba5-b21bb1e62219|af31ba7e-a404-4fb9-bfd5-5cd73e04e2f3|/93806d35-978a-41c3-895f-33e46b0d2e7c|/93806d35-978a-41c3-895f-33e46b0d2e7c|/93806d35-978a-41c3-895f-33e46b0d2e7c",
-        "We do not do much input sensing in the BMIC, therefore the grounds are tied together."
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -559,29 +545,9 @@
       ],
       "VBUS": [
         "Power"
-      ],
-      "VIN": [
-        "Power"
       ]
     },
-    "netclass_patterns": [
-      {
-        "netclass": "Power",
-        "pattern": "VIN"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "+5V"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "VBUS"
-      },
-      {
-        "netclass": "Ground",
-        "pattern": "GND"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -709,6 +675,18 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC#",
+          "name": "LCSC#",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -755,7 +733,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "../output/schematics/",
+    "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
