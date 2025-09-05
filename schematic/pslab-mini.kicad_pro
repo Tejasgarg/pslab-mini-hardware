@@ -63,24 +63,7 @@
           "width": 0.18
         }
       ],
-      "drc_exclusions": [
-        [
-          "hole_clearance|157660000|101540000|37f8f368-8de3-4e07-a2fb-41baa5082551|8b1b8b5d-b5de-413a-b519-6cdac9d49a5e",
-          ""
-        ],
-        [
-          "hole_clearance|157660000|101540000|37f8f368-8de3-4e07-a2fb-41baa5082551|e68f2d3d-eb01-4c12-86f0-b3412dd99be8",
-          ""
-        ],
-        [
-          "hole_clearance|157660000|95740000|8f436e84-0bea-4cdf-9286-93ee54d95712|909fa9d9-4f58-47b0-b1cd-9dbe355a5ee1",
-          ""
-        ],
-        [
-          "hole_clearance|157660000|95740000|8f436e84-0bea-4cdf-9286-93ee54d95712|a83e554e-192e-44ba-8f0a-27ca259e361e",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -270,11 +253,19 @@
   "erc": {
     "erc_exclusions": [
       [
-        "multiple_net_names|4572000|393700|dd78c255-cca9-4765-a944-e9392d10246b|a775844a-5488-4860-a727-0cd3dbb2683c|/93806d35-978a-41c3-895f-33e46b0d2e7c|/93806d35-978a-41c3-895f-33e46b0d2e7c|/93806d35-978a-41c3-895f-33e46b0d2e7c",
+        "missing_input_pin|2806700|2247900|3b7f4b66-7915-41a5-aecc-a6bd81681532|00000000-0000-0000-0000-000000000000|/93806d35-978a-41c3-895f-33e46b0d2e7c|/93806d35-978a-41c3-895f-33e46b0d2e7c|",
         ""
       ],
       [
-        "multiple_net_names|863600|1397000|a895e22a-eaed-47f6-96ed-7889a347109c|af31ba7e-a404-4fb9-bfd5-5cd73e04e2f3|/93806d35-978a-41c3-895f-33e46b0d2e7c|/93806d35-978a-41c3-895f-33e46b0d2e7c|/93806d35-978a-41c3-895f-33e46b0d2e7c",
+        "missing_unit|2806700|2247900|3b7f4b66-7915-41a5-aecc-a6bd81681532|00000000-0000-0000-0000-000000000000|/93806d35-978a-41c3-895f-33e46b0d2e7c|/93806d35-978a-41c3-895f-33e46b0d2e7c|",
+        ""
+      ],
+      [
+        "multiple_net_names|3492500|393700|fc25976f-32eb-448b-beaf-27ee8b8b110f|a775844a-5488-4860-a727-0cd3dbb2683c|/93806d35-978a-41c3-895f-33e46b0d2e7c|/93806d35-978a-41c3-895f-33e46b0d2e7c|/93806d35-978a-41c3-895f-33e46b0d2e7c",
+        ""
+      ],
+      [
+        "multiple_net_names|876300|1397000|6f3234b3-dc26-4323-8ebe-ec1bbd68fac9|4c379c04-226d-4790-b5bb-dcc23fa85d5e|/93806d35-978a-41c3-895f-33e46b0d2e7c|/93806d35-978a-41c3-895f-33e46b0d2e7c|/93806d35-978a-41c3-895f-33e46b0d2e7c",
         ""
       ]
     ],
@@ -628,6 +619,15 @@
       "Net-(U11-SPIQ)": [
         "ESP_SPI"
       ],
+      "Net-(U8-SPICLK)": [
+        "ESP_SPI"
+      ],
+      "Net-(U8-SPID)": [
+        "ESP_SPI"
+      ],
+      "Net-(U8-SPIQ)": [
+        "ESP_SPI"
+      ],
       "VBUS": [
         "Power"
       ],
@@ -769,7 +769,7 @@
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
